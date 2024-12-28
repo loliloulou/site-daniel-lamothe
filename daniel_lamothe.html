@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les créations uniques de Daniel Lamothe, tailleur professionnel spécialisé dans la couture sur mesure.">
+    <title>Daniel Lamothe - Créations sur mesure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1E90FF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f4f4f4;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            color: #1E90FF;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h1, h2 {
+            color: #1E90FF;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .gallery img {
+            width: 30%;
+            border-radius: 5px;
+        }
+        .contact-form {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #1E90FF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daniel Lamothe</h1>
+        <p>Créations sur mesure - Élégance et précision</p>
+    </header>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>À propos</h2>
+            <p>Bienvenue sur le site officiel de Daniel Lamothe, tailleur professionnel passionné par la création de vêtements uniques et sur mesure. Avec un souci du détail et une approche centrée sur le client, chaque pièce raconte une histoire d'élégance et de précision. Explorez mes créations et découvrez mon univers.</p>
+        </section>
+        <section id="gallery">
+            <h2>Galerie</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/300" alt="Création 1">
+                <img src="https://via.placeholder.com/300" alt="Création 2">
+                <img src="https://via.placeholder.com/300" alt="Création 3">
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-form">
+                <form>
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Daniel Lamothe. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
